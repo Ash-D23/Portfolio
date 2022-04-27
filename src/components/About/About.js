@@ -27,7 +27,7 @@ function About() {
               </div>
               <div className="column2">
                 <div className="imgwrap">
-                  <img src="images/about.svg" className="image" />
+                  <img src="images/about.svg" alt="about" className="image" />
                 </div>
              </div>
           </div>

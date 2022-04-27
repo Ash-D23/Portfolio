@@ -1,7 +1,6 @@
 import './Main.css'
 import React from 'react';
 import { Button } from '../Button/Button';
-import { Link } from 'react-router-dom';
 
 function HeroSection() {
   const showResume = () => {

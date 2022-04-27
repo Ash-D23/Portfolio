@@ -83,7 +83,7 @@ function Experience() {
           </div>
           <div className="col2">
           <div className="expimgwrap">
-            <img src="images/experience.svg" className="expimage" />
+            <img src="./images/experience.svg" alt="skills" className="expimage" />
           </div>
           </div>
 

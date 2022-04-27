@@ -6,7 +6,7 @@ import Navbar from './components/Navbar/Navbar'
 function App() {
   return (
     <>
-      <Router basename={window.location.pathname || ''}>
+      <Router>
         <Navbar />
         <Switch>
           <Route path='/' exact component={Home} />
