@@ -1,0 +1,113 @@
+.expcontainer{
+  color: #fff;
+  background: #000;
+  align-items: center;
+}
+
+.expwrapper{
+  height: 450px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.exprow{
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+  justify-content: center;
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+
+.col1{
+  width:60%;
+  padding-left: 30px;
+}
+
+.expheading{
+
+  text-align: center;
+  font-size: 32px;
+  padding-bottom: 15px;
+}
+
+.expsub{
+  padding: 10px;
+  color: #0099CC;
+  text-align: center;
+  font-size: 20px;
+}
+
+.col2{
+  width: 40%;
+}
+
+.skillbuttons{
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.skillbuttons .btn{
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+
+.expimgwrap{
+  max-width: 450px;
+  height: 100%;
+}
+
+.expimage{
+  width:80%;
+  margin-left: 20px;
+  padding-right: 0
+}
+
+.mobile-col{
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+  .skillbuttons{
+    display: none;
+  }
+
+  .col2{
+    display: none;
+  }
+
+  .exprow{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .col1{
+    padding-left: 0;
+    width: 90%;
+  }
+
+  .mobile-col{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 15px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mobile-col li{
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+    color: #0099CC;
+  }
+}
