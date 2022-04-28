@@ -41,7 +41,7 @@ function Cards() {
             <CardItem
               src='images/job.jpg'
               text='Quizz Show: Quiz App for Students'
-              label='MERN Stack'
+              label='React & Firebase
               path='/'
               code='https://github.com/Ash-D23/job-search-app'
               demo='https://ash-d23.github.io/job-search-app/'
