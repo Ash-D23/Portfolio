@@ -16,8 +16,8 @@ function Cards() {
               label='React'
               path='/'
               large='true'
-              code='https://github.com/Ash-D23/student-performance-react-app'
-              demo='https://ash-d23.github.io/student-performance-react-app/'
+              code='https://github.com/Ash-D23/stylibook-store-app'
+              demo='https://stylibookstoreapp.netlify.app/'
             />
             <CardItem
               src='images/exam.jpg'
@@ -25,8 +25,8 @@ function Cards() {
               label='React'
               path='/'
               large='true'
-              code='https://github.com/Ash-D23/Exam-Assistant-App'
-              demo='https://ash-d23.github.io/Exam-Assistant-App/'
+              code='https://github.com/Ash-D23/video-library-app'
+              demo='https://vidbookapp.netlify.app/'
             />
           </ul>
           <ul className='cards__items'>
@@ -35,16 +35,16 @@ function Cards() {
               text='Stylish Book UI: Component Library'
               label='HTML, CSS & JS'
               path='/'
-              code='https://github.com/Ash-D23/ECommerce-Book-Store'
-              demo='https://ash-d23.github.io/ECommerce-Book-Store/'
+              code='https://github.com/Ash-D23/Stylish-Book-UI-Component-Library'
+              demo='https://stylishbookui.netlify.app/'
             />
             <CardItem
               src='images/job.jpg'
               text='Quizz Show: Quiz App for Students'
               label='React & Firebase'
               path='/'
-              code='https://github.com/Ash-D23/job-search-app'
-              demo='https://ash-d23.github.io/job-search-app/'
+              code='https://github.com/Ash-D23/quizz-show-app'
+              demo='https://quizzshoww.netlify.app/'
             />
             <CardItem
               src='images/map.jpg'
