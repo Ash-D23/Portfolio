@@ -1,16 +1,17 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import './Button.css'
 export const Button = ({
   children,
   type,
   onClick,
   buttonStyle,
-  buttonSize
+  buttonSize,
+  path
 }) => {
 
   return (
-    <Link to='/' className='btn-mobile'>
+    <Link to={path || '/'} className='btn-mobile'>
       <button
         className={`btn ${buttonStyle} ${buttonSize}`}
         onClick={onClick}

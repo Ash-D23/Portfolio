@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import './Navbar.css'
 
 function Navbar() {
@@ -24,11 +25,6 @@ function Navbar() {
     closeMobileMenu()
   }
 
-  const showprojects = ()=>{
-    window.location.assign('https://github.com/Ash-D23/');
-    closeMobileMenu()
-  }
-
   return(
   <>
       <nav className={navbar | click ? "navbar active" : "navbar"}>
@@ -47,13 +43,12 @@ function Navbar() {
               </Link>
             </li>
             <li className='nav-item'>
-              <Link
-                to='/'
+              <HashLink
+                to='/#projects'
                 className='nav-links'
-                onClick={showprojects}
               >
                 Projects
-              </Link>
+              </HashLink>
             </li>
             <li className='nav-item'>
               <Link

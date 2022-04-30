@@ -7,10 +7,6 @@ function HeroSection() {
     window.location.assign('https://drive.google.com/file/d/1myhPVYMNA3IjL-gP-jRMeJLonruK0FFS/view?usp=sharing');
   }
 
-  const showProjects = () => {
-    window.location.assign('https://github.com/Ash-D23/');
-  }
-
   return (
     <div className='hero-container'>
 
@@ -29,7 +25,7 @@ function HeroSection() {
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
-          onClick={showProjects}
+          path="/#projects"
         >
           View projects
         </Button>
