@@ -138,4 +138,8 @@
     font-size: 2rem;
   }
 
+  .navbar-logo i{
+    display: none
+  }
+
 }
