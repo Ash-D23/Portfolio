@@ -45,6 +45,7 @@ function Navbar() {
             <li className='nav-item'>
               <HashLink
                 to='/#projects'
+                onClick={closeMobileMenu}
                 className='nav-links'
               >
                 Projects
