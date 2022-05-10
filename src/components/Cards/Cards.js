@@ -11,7 +11,7 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/analysis.jpg'
+              src='images/book.jpg'
               text='StyliBook Store: E-Commerce Book Store App'
               label='React'
               path='/'
@@ -20,7 +20,7 @@ function Cards() {
               demo='https://stylibookstoreapp.netlify.app/'
             />
             <CardItem
-              src='images/exam.jpg'
+              src='images/video.jpg'
               text='VidBook: Video Library for Cinematic Videos'
               label='React'
               path='/'
@@ -31,7 +31,7 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/book.jpg'
+              src='images/ui.jpg'
               text='Stylish Book UI: Component Library'
               label='HTML, CSS & JS'
               path='/'
@@ -39,7 +39,7 @@ function Cards() {
               demo='https://stylishbookui.netlify.app/'
             />
             <CardItem
-              src='images/job.jpg'
+              src='images/analysis.jpg'
               text='Quizz Show: Quiz App for Students'
               label='React & Firebase'
               path='/'
