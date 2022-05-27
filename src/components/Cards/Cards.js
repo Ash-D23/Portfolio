@@ -20,6 +20,16 @@ function Cards() {
               demo='https://stylibookstoreapp.netlify.app/'
             />
             <CardItem
+              src='images/social.jpg'
+              text='TripyTrip: Social Media App for travellers'
+              label='React JS, Redux, Material UI'
+              path='/'
+              code='https://github.com/Ash-D23/social-media-app'
+              demo='https://tripytrip.netlify.app/'
+            />
+          </ul>
+          <ul className='cards__items'>
+            <CardItem
               src='images/video.jpg'
               text='VidBook: Video Library for Cinematic Videos'
               label='React'
@@ -27,16 +37,6 @@ function Cards() {
               large='true'
               code='https://github.com/Ash-D23/video-library-app'
               demo='https://vidbookapp.netlify.app/'
-            />
-          </ul>
-          <ul className='cards__items'>
-            <CardItem
-              src='images/ui.jpg'
-              text='Stylish Book UI: Component Library'
-              label='HTML, CSS & JS'
-              path='/'
-              code='https://github.com/Ash-D23/Stylish-Book-UI-Component-Library'
-              demo='https://stylishbookui.netlify.app/'
             />
             <CardItem
               src='images/analysis.jpg'
@@ -47,12 +47,12 @@ function Cards() {
               demo='https://quizzshoww.netlify.app/'
             />
             <CardItem
-              src='images/map.jpg'
-              text='Travel Advisor: Plan your itinerary'
-              label='React & Google Maps'
+              src='images/ui.jpg'
+              text='Stylish Book UI: Component Library'
+              label='HTML, CSS & JS'
               path='/'
-              code='https://github.com/Ash-D23/travel-advisor'
-              demo='https://travel-advisor-planner.netlify.app/'
+              code='https://github.com/Ash-D23/Stylish-Book-UI-Component-Library'
+              demo='https://stylishbookui.netlify.app/'
             />
           </ul>
         </div>
