@@ -27,8 +27,6 @@ function Cards() {
               code='https://github.com/Ash-D23/social-media-app'
               demo='https://tripytrip.netlify.app/'
             />
-          </ul>
-          <ul className='cards__items'>
             <CardItem
               src='images/video.jpg'
               text='VidBook: Video Library for Cinematic Videos'
@@ -38,10 +36,12 @@ function Cards() {
               code='https://github.com/Ash-D23/video-library-app'
               demo='https://vidbookapp.netlify.app/'
             />
+          </ul>
+          <ul className='cards__items'>
             <CardItem
               src='images/analysis.jpg'
               text='Quizz Show: Quiz App for Students'
-              label='React & Firebase'
+              label='React, Typescript & Firebase'
               path='/'
               code='https://github.com/Ash-D23/quizz-show-app'
               demo='https://quizzshoww.netlify.app/'
@@ -53,6 +53,15 @@ function Cards() {
               path='/'
               code='https://github.com/Ash-D23/Stylish-Book-UI-Component-Library'
               demo='https://stylishbookui.netlify.app/'
+            />
+            <CardItem
+              src='images/webpack.jpg'
+              text='Webpack Starter Kit'
+              label='Webpack'
+              path='/'
+              large='true'
+              code='https://github.com/Ash-D23/webpack-startter-kit'
+              demo='https://webpack-typescript-starter-kit.netlify.app/'
             />
           </ul>
         </div>
