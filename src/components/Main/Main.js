@@ -4,7 +4,7 @@ import { Button } from '../Button/Button';
 
 function HeroSection() {
   const showResume = () => {
-    window.location.assign('https://drive.google.com/file/d/1KtSkgt0_GN7v8daZtFRmpPiFY5M3n5F7/view?usp=sharing');
+    window.location.assign('https://drive.google.com/file/d/1VNtBg60OyJepDWv-IrR7kNDZWruIUZVJ/view?usp=sharing');
   }
 
   return (
